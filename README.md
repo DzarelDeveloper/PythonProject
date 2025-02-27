@@ -3,9 +3,13 @@
 ### Project-1: Calculator  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-1.py)  
 ### Project-2: QR CODE  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-2.py)  
 ### Project-3: IMG CONVERT  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-3.py)  
 ### Project-4: Notepad  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-4.py)  
 ### Project-5: Diary  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-5.py)  
 ### Project-6: Multi Function Timer  
 ### Project-7: Password Manager  
 ### Project-8: ANC-DEC Text  
