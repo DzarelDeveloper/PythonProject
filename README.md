@@ -15,6 +15,7 @@
 ### Project-7: Password Manager  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-7.py)
 ### Project-8: ANC-DEC Text  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-8.py)
 ### Project-9: Smart Calendar  
 ### Project-10: ChatGPT  
 ### Project-11: File Manager  
