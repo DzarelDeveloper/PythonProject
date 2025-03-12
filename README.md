@@ -21,6 +21,7 @@
 ### Project-10: ChatGPT  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-10.py) 
 ### Project-11: File Manager  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-11.py)  
 ### Project-12: StudyTime  
 ### Project-13: Login Form  
 ### Project-14: Music Player  
