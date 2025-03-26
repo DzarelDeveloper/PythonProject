@@ -23,9 +23,11 @@
 ### Project-11: File Manager  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-11.py) 
 ### Project-12: StudyTime  
-[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-12.py)  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-12.py) 
 ### Project-13: Login Form  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-13.py) 
 ### Project-14: Music Player  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-14.py) 
 ### Project-15: Screenshot Tool  
 ### Project-16: Color Picker  
 ### Project-17: Picture Watermark  
