@@ -35,6 +35,7 @@
 ### Project-17: Picture Watermark  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-17.py) 
 ### Project-18: Transcripto  
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-18.py) 
 ### Project-19: TTC vs AI  
 ### Project-20: Language Translator  
 
