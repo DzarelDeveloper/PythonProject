@@ -39,4 +39,5 @@
 ### Project-19: TTC vs AI  
 [![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-19.py) 
 ### Project-20: Language Translator  
-
+[![View Code](https://img.shields.io/badge/View_Code-Click_Here-green?style=for-the-badge)](https://raw.githubusercontent.com/DzarelDeveloper/PythonProject/refs/heads/main/project-20.py) 
+### Project-21: Seira - Bot Telegram 
