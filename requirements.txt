@@ -1,0 +1,13 @@
+qrcode
+Pillow
+cryptography
+tkcalendar
+pygame
+requests
+pyTelegramBotAPI
+openai
+deep-translator
+SpeechRecognition
+fastapi
+uvicorn
+Flask
