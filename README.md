@@ -89,8 +89,8 @@ Every day includes a focused tutorial with learning goals, setup instructions, a
 ### Clone and prepare the environment
 
 ```bash
-git clone https://github.com/DzarelDeveloper/PythonProject.git
-cd PythonProject
+git clone https://github.com/DzarelDeveloper/30-Days-Python-Projects.git
+cd 30-Days-Python-Projects
 python -m venv .venv
 ```
 
@@ -133,7 +133,7 @@ Read the README inside each day's directory before running its program. Some pro
 ## Repository Structure
 
 ```text
-PythonProject/
+30-Days-Python-Projects/
 ├── Day-01/
 │   ├── main.py
 │   └── README.md
