@@ -1,86 +1,99 @@
 # Day 27 — Expense Tracker with SQLite
 
-**Level:** Lanjutan  
-**Fokus:** SQLite, SQL, argparse, agregasi
+| Property | Value |
+|---|---|
+| **Difficulty** | Advanced |
+| **Interface** | CLI / Database |
+| **Core concepts** | argparse, SQLite, SQL aggregation |
+| **Dependencies** | Standard library |
 
-## Tujuan Belajar
+## Learning Goals
 
-Menyimpan pengeluaran persisten melalui CLI. Setelah menyelesaikan hari ini, kamu diharapkan mampu menjelaskan alur program, menjalankannya sendiri, dan memodifikasi setidaknya satu fiturnya.
+By completing this project, you should be able to:
 
-## Konsep yang Dipelajari
+- Explain how the program receives input, processes data, and produces output
+- Identify the main functions, state, and external resources used by the application
+- Run and debug the project independently
+- Modify at least one behavior without breaking the original flow
 
-- SQLite
-- SQL
+## Concepts
+
 - argparse
-- agregasi
-- Memecah masalah menjadi input, proses, dan output
-- Membaca pesan error serta melakukan debugging dasar
+- SQLite
+- SQL aggregation
+- Input validation and error handling
+- Breaking a problem into smaller functions or components
 
-## Persiapan
+## Setup
 
-**Kebutuhan:** Tidak ada
-
-Gunakan virtual environment agar dependensi proyek tidak bercampur dengan instalasi Python sistem.
+Create and activate a virtual environment:
 
 ```bash
 python -m venv .venv
 
-# Linux/macOS
+# Linux or macOS
 source .venv/bin/activate
 
 # Windows PowerShell
 .venv\Scripts\Activate.ps1
 ```
 
-Jika `main.py` mengimpor library yang belum tersedia, instal package yang disebutkan pada bagian kebutuhan.
+Required dependencies: **Standard library**.
 
-## Menjalankan Proyek
+Install any missing third-party package before running the project. Standard-library modules do not need to be installed with `pip`.
 
-Dari root repository:
+## Run the Project
+
+From the repository root:
 
 ```bash
 cd Day-27
 python main.py
 ```
 
-Contoh penggunaan:
+
+
+Example:
 
 ```bash
-python main.py add Makanan 25000 --note "Makan siang"
+python main.py add Food 25000 --note "Lunch"
 python main.py list
 ```
 
-## Alur Program
+## How the Program Works
 
-1. Program memuat module dan menyiapkan data atau antarmuka yang diperlukan.
-2. Input diterima dari pengguna, file, perangkat, atau layanan eksternal sesuai fungsi proyek.
-3. Fungsi utama memvalidasi dan memproses input.
-4. Hasil ditampilkan melalui terminal, GUI, file, atau respons HTTP.
-5. Error harus ditangani dengan pesan yang membantu pengguna memperbaiki input atau konfigurasi.
+1. Python imports the modules required by the project.
+2. The program initializes its cli / database and application state.
+3. It receives input from a user, file, device, request, or external service.
+4. The main logic validates and processes that input.
+5. The result is displayed through the cli / database, saved locally, or returned to a client.
+6. Errors should be converted into clear feedback instead of terminating the program unexpectedly.
 
-Buka `main.py`, temukan titik awal program, lalu ikuti pemanggilan fungsi secara berurutan. Perhatikan variabel yang menyimpan state serta bagian yang berinteraksi dengan sistem di luar program.
+Open `main.py` and trace the program from its imports to its entry point. Locate the code responsible for input, business logic, state changes, and output.
 
-## Eksperimen Hari Ini
+## Guided Practice
 
-- Jalankan versi asli dan catat hasilnya.
-- Ubah satu teks, nilai awal, atau konfigurasi kecil.
-- Berikan satu input valid dan satu input tidak valid.
-- Tambahkan satu `print()` sementara untuk melihat aliran data.
-- Kembalikan kode setelah selesai melakukan debugging.
+- Run the unmodified project and record the expected result.
+- Change one label, default value, or configuration.
+- Test one valid input and one invalid input.
+- Add a temporary `print()` statement to inspect a value.
+- Remove temporary debugging output after understanding the flow.
+- Explain the project in your own words without reading the code.
 
-## Tantangan
+## Extension Challenge
 
-Tambahkan filter bulan, kategori, dan ekspor CSV.
+Add monthly filters, categories, deletion, and CSV export.
 
-## Checklist
+## Completion Checklist
 
-- [ ] Program dapat dijalankan
-- [ ] Saya memahami input, proses, dan output
-- [ ] Saya dapat menjelaskan fungsi utama
-- [ ] Saya menguji kondisi input yang salah
-- [ ] Saya menyelesaikan minimal satu modifikasi
-- [ ] Tidak ada credential atau data sensitif di dalam kode
+- [ ] The project runs successfully
+- [ ] I can identify its interface type
+- [ ] I understand its input, processing, and output
+- [ ] I can explain the main function or class
+- [ ] I tested an invalid input or failure case
+- [ ] I completed at least one modification
+- [ ] No credentials or sensitive data are committed
 
-## Catatan
+## Production Note
 
-Proyek ini ditujukan untuk pembelajaran. Tinjau validasi, keamanan, error handling, dan pengujian sebelum menggunakannya untuk kebutuhan nyata.
+This is a learning project. Review its validation, security, error handling, dependency versions, and test coverage before using it in a real environment.

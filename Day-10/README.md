@@ -1,78 +1,92 @@
 # Day 10 — Image Watermark
 
-**Level:** Pemula  
-**Fokus:** Pillow, koordinat, transparansi
+| Property | Value |
+|---|---|
+| **Difficulty** | Beginner |
+| **Interface** | Desktop GUI |
+| **Core concepts** | Pillow, text positioning, image export |
+| **Dependencies** | Pillow |
 
-## Tujuan Belajar
+## Learning Goals
 
-Menambahkan watermark pada gambar. Setelah menyelesaikan hari ini, kamu diharapkan mampu menjelaskan alur program, menjalankannya sendiri, dan memodifikasi setidaknya satu fiturnya.
+By completing this project, you should be able to:
 
-## Konsep yang Dipelajari
+- Explain how the program receives input, processes data, and produces output
+- Identify the main functions, state, and external resources used by the application
+- Run and debug the project independently
+- Modify at least one behavior without breaking the original flow
+
+## Concepts
 
 - Pillow
-- koordinat
-- transparansi
-- Memecah masalah menjadi input, proses, dan output
-- Membaca pesan error serta melakukan debugging dasar
+- text positioning
+- image export
+- Input validation and error handling
+- Breaking a problem into smaller functions or components
 
-## Persiapan
+## Setup
 
-**Kebutuhan:** Pillow
-
-Gunakan virtual environment agar dependensi proyek tidak bercampur dengan instalasi Python sistem.
+Create and activate a virtual environment:
 
 ```bash
 python -m venv .venv
 
-# Linux/macOS
+# Linux or macOS
 source .venv/bin/activate
 
 # Windows PowerShell
 .venv\Scripts\Activate.ps1
 ```
 
-Jika `main.py` mengimpor library yang belum tersedia, instal package yang disebutkan pada bagian kebutuhan.
+Required dependencies: **Pillow**.
 
-## Menjalankan Proyek
+Install any missing third-party package before running the project. Standard-library modules do not need to be installed with `pip`.
 
-Dari root repository:
+## Run the Project
+
+From the repository root:
 
 ```bash
 cd Day-10
 python main.py
 ```
 
-## Alur Program
 
-1. Program memuat module dan menyiapkan data atau antarmuka yang diperlukan.
-2. Input diterima dari pengguna, file, perangkat, atau layanan eksternal sesuai fungsi proyek.
-3. Fungsi utama memvalidasi dan memproses input.
-4. Hasil ditampilkan melalui terminal, GUI, file, atau respons HTTP.
-5. Error harus ditangani dengan pesan yang membantu pengguna memperbaiki input atau konfigurasi.
 
-Buka `main.py`, temukan titik awal program, lalu ikuti pemanggilan fungsi secara berurutan. Perhatikan variabel yang menyimpan state serta bagian yang berinteraksi dengan sistem di luar program.
+## How the Program Works
 
-## Eksperimen Hari Ini
+1. Python imports the modules required by the project.
+2. The program initializes its desktop gui and application state.
+3. It receives input from a user, file, device, request, or external service.
+4. The main logic validates and processes that input.
+5. The result is displayed through the desktop gui, saved locally, or returned to a client.
+6. Errors should be converted into clear feedback instead of terminating the program unexpectedly.
 
-- Jalankan versi asli dan catat hasilnya.
-- Ubah satu teks, nilai awal, atau konfigurasi kecil.
-- Berikan satu input valid dan satu input tidak valid.
-- Tambahkan satu `print()` sementara untuk melihat aliran data.
-- Kembalikan kode setelah selesai melakukan debugging.
+Open `main.py` and trace the program from its imports to its entry point. Locate the code responsible for input, business logic, state changes, and output.
 
-## Tantangan
+## Guided Practice
 
-Tambahkan posisi otomatis dan batch watermark.
+- Run the unmodified project and record the expected result.
+- Change one label, default value, or configuration.
+- Test one valid input and one invalid input.
+- Add a temporary `print()` statement to inspect a value.
+- Remove temporary debugging output after understanding the flow.
+- Explain the project in your own words without reading the code.
 
-## Checklist
+## Extension Challenge
 
-- [ ] Program dapat dijalankan
-- [ ] Saya memahami input, proses, dan output
-- [ ] Saya dapat menjelaskan fungsi utama
-- [ ] Saya menguji kondisi input yang salah
-- [ ] Saya menyelesaikan minimal satu modifikasi
-- [ ] Tidak ada credential atau data sensitif di dalam kode
+Add configurable position, opacity, and batch processing.
 
-## Catatan
+## Completion Checklist
 
-Proyek ini ditujukan untuk pembelajaran. Tinjau validasi, keamanan, error handling, dan pengujian sebelum menggunakannya untuk kebutuhan nyata.
+- [ ] The project runs successfully
+- [ ] I can identify its interface type
+- [ ] I understand its input, processing, and output
+- [ ] I can explain the main function or class
+- [ ] I tested an invalid input or failure case
+- [ ] I completed at least one modification
+- [ ] No credentials or sensitive data are committed
+
+## Production Note
+
+This is a learning project. Review its validation, security, error handling, dependency versions, and test coverage before using it in a real environment.
