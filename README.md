@@ -2,143 +2,125 @@
 
 # 30 Days of Python Projects
 
-**A progressive collection of 30 practical Python projects — from desktop utilities to APIs, automation, databases, and defensive security tooling.**
+**Belajar Python melalui 30 proyek praktis yang disusun bertahap dari tingkat pemula hingga lanjutan.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Projects](https://img.shields.io/badge/Projects-30-0A66C2)](#project-roadmap)
+[![Projects](https://img.shields.io/badge/Projects-30-0A66C2)](#roadmap-proyek)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Maintained by](https://img.shields.io/badge/Maintained%20by-DzarelDeveloper-181717?logo=github)](https://github.com/DzarelDeveloper)
+[![Maintainer](https://img.shields.io/badge/Maintainer-DzarelDeveloper-181717?logo=github)](https://github.com/DzarelDeveloper)
 
-[Explore the roadmap](#project-roadmap) · [Get started](#getting-started) · [View structure](#repository-structure)
+[Roadmap](#roadmap-proyek) · [Mulai belajar](#cara-memulai) · [Struktur](#struktur-repository)
 
 </div>
 
 ---
 
-## About This Repository
+## Tentang Program
 
-This repository documents a hands-on Python learning journey through 30 standalone projects. The roadmap starts with approachable desktop applications and gradually introduces file processing, authentication, external APIs, automation, databases, REST services, and defensive log analysis.
+**30 Days of Python Projects** adalah jalur belajar berbasis praktik. Setiap hari membahas satu proyek dengan sasaran yang jelas, konsep utama, petunjuk menjalankan program, penjelasan alur, latihan, dan tantangan pengembangan.
 
-Each project lives in its own directory and includes:
+Program ini bergerak dari fundamental Python dan aplikasi desktop menuju pengolahan file, API, database, otomasi, pengembangan web, serta analisis log keamanan defensif.
 
-- A standalone `main.py` entry point
-- A short project-specific README
-- Clear source attribution where the project originated from an earlier repository
-- A difficulty level that reflects its concepts and dependencies
+## Tahapan Belajar
 
-> **Project history:** Days 01–26 consolidate existing projects without modifying their original repositories. Days 27–30 are new capstone projects created for this collection.
-
-## Learning Path
-
-| Stage | Days | Focus |
+| Tahap | Hari | Fokus |
 |---|---:|---|
-| **Beginner** | 01–10 | Python fundamentals, GUI basics, images, and small utilities |
-| **Intermediate** | 11–20 | State, files, authentication, desktop tools, and network utilities |
-| **Advanced** | 21–30 | Bots, APIs, speech processing, AI, SQLite, Flask, FastAPI, and security logs |
+| **Pemula** | 01–10 | Fundamental Python, fungsi, GUI, input, file, dan gambar |
+| **Menengah** | 11–20 | State aplikasi, autentikasi, audio, filesystem, dan networking |
+| **Lanjutan** | 21–30 | Bot, AI API, database, REST API, web app, dan defensive security |
 
-## Project Roadmap
+## Roadmap Proyek
 
-<details open>
-<summary><strong>Beginner — Days 01–10</strong></summary>
+| Hari | Proyek | Level | Konsep Utama |
+|---:|---|---|---|
+| 01 | [Calculator](./Day-01/) | Pemula | Tkinter, fungsi, event handling |
+| 02 | [QR Code Generator](./Day-02/) | Pemula | input pengguna, library pihak ketiga, penyimpanan file |
+| 03 | [Birthday Message](./Day-03/) | Pemula | string, output terminal, jeda waktu |
+| 04 | [Personal Message Script](./Day-04/) | Pemula | string, perulangan, timing |
+| 05 | [Notepad](./Day-05/) | Pemula | Tkinter, widget Text, operasi file |
+| 06 | [Personal Diary](./Day-06/) | Pemula | input, file handling, tanggal |
+| 07 | [Image Converter](./Day-07/) | Pemula | dialog file, format gambar, Pillow |
+| 08 | [Color Picker](./Day-08/) | Pemula | dialog warna, HEX, RGB |
+| 09 | [Screenshot Tool](./Day-09/) | Pemula | desktop capture, penyimpanan gambar |
+| 10 | [Image Watermark](./Day-10/) | Pemula | Pillow, koordinat, transparansi |
+| 11 | [Multi-Function Timer](./Day-11/) | Menengah | state aplikasi, waktu, callback |
+| 12 | [Study Timer](./Day-12/) | Menengah | Pomodoro, state, validasi input |
+| 13 | [Smart Calendar](./Day-13/) | Menengah | tanggal, kalender GUI, event |
+| 14 | [Music Player](./Day-14/) | Menengah | audio playback, playlist, event GUI |
+| 15 | [File Manager](./Day-15/) | Menengah | path, folder, operasi filesystem |
+| 16 | [Password Manager](./Day-16/) | Menengah | penyimpanan data, validasi, keamanan dasar |
+| 17 | [Text Encrypt & Decrypt](./Day-17/) | Menengah | kriptografi simetris, key, encoding |
+| 18 | [Register & Login](./Day-18/) | Menengah | autentikasi, validasi, hashing |
+| 19 | [QR Scanner](./Day-19/) | Menengah | kamera, decoding QR, loop frame |
+| 20 | [Subdomain Hunter](./Day-20/) | Menengah | DNS/HTTP, wordlist, request, error handling |
+| 21 | [Telegram Bot](./Day-21/) | Lanjutan | Bot API, handler, token lingkungan |
+| 22 | [ChatGPT Client](./Day-22/) | Lanjutan | API, environment variable, respons model |
+| 23 | [Language Translator](./Day-23/) | Lanjutan | translation API, bahasa sumber/tujuan, GUI |
+| 24 | [Audio Transcription](./Day-24/) | Lanjutan | audio input, speech recognition, error handling |
+| 25 | [Tic-Tac-Toe vs AI](./Day-25/) | Lanjutan | game state, pencarian langkah, strategi AI |
+| 26 | [Restaurant Management System](./Day-26/) | Lanjutan | GUI, item pesanan, total, invoice |
+| 27 | [Expense Tracker with SQLite](./Day-27/) | Lanjutan | SQLite, SQL, argparse, agregasi |
+| 28 | [REST API with FastAPI](./Day-28/) | Lanjutan | REST, HTTP methods, Pydantic, validation |
+| 29 | [Security Log Analyzer](./Day-29/) | Lanjutan | regex, parsing log, Counter, CLI |
+| 30 | [Task Manager with Flask & SQLite](./Day-30/) | Lanjutan | Flask, routing, template, CRUD, SQLite |
 
-| Day | Project | Core Concepts |
-|---:|---|---|
-| 01 | [Calculator](./Day-01/) | Tkinter, functions, event handling |
-| 02 | [QR Code Generator](./Day-02/) | Package usage, QR generation |
-| 03 | [Birthday Message](./Day-03/) | Output formatting, control flow |
-| 04 | [Personal Message Script](./Day-04/) | Strings, timing, terminal output |
-| 05 | [Notepad](./Day-05/) | GUI, text editing |
-| 06 | [Personal Diary](./Day-06/) | File handling, user input |
-| 07 | [Image Converter](./Day-07/) | Image processing, file conversion |
-| 08 | [Color Picker](./Day-08/) | GUI dialogs, color values |
-| 09 | [Screenshot Tool](./Day-09/) | Desktop automation, image capture |
-| 10 | [Image Watermark](./Day-10/) | Image composition, positioning |
+## Cara Memulai
 
-</details>
+### Prasyarat
 
-<details open>
-<summary><strong>Intermediate — Days 11–20</strong></summary>
-
-| Day | Project | Core Concepts |
-|---:|---|---|
-| 11 | [Multi-Function Timer](./Day-11/) | Time management, application state |
-| 12 | [Study Timer](./Day-12/) | Productivity logic, GUI state |
-| 13 | [Smart Calendar](./Day-13/) | Dates, calendar UI |
-| 14 | [Music Player](./Day-14/) | Audio playback, media controls |
-| 15 | [File Manager](./Day-15/) | Filesystem operations, navigation |
-| 16 | [Password Manager](./Day-16/) | Credential storage concepts |
-| 17 | [Text Encrypt & Decrypt](./Day-17/) | Cryptography fundamentals |
-| 18 | [Register & Login](./Day-18/) | Authentication flow, validation |
-| 19 | [QR Scanner](./Day-19/) | Camera input, QR decoding |
-| 20 | [Subdomain Hunter](./Day-20/) | Networking, HTTP requests |
-
-</details>
-
-<details open>
-<summary><strong>Advanced — Days 21–30</strong></summary>
-
-| Day | Project | Core Concepts |
-|---:|---|---|
-| 21 | [Telegram Bot](./Day-21/) | Bot APIs, message handlers |
-| 22 | [ChatGPT Client](./Day-22/) | AI API integration |
-| 23 | [Language Translator](./Day-23/) | Translation services, GUI |
-| 24 | [Audio Transcription](./Day-24/) | Speech recognition, audio input |
-| 25 | [Tic-Tac-Toe vs AI](./Day-25/) | Game logic, computer opponent |
-| 26 | [Restaurant Management System](./Day-26/) | GUI, transactions, billing |
-| 27 | [Expense Tracker with SQLite](./Day-27/) | SQL, persistence, CLI |
-| 28 | [REST API with FastAPI](./Day-28/) | REST, validation, HTTP methods |
-| 29 | [Security Log Analyzer](./Day-29/) | Regex, log parsing, defensive analysis |
-| 30 | [Task Manager with Flask & SQLite](./Day-30/) | Full-stack basics, CRUD, database |
-
-</details>
-
-## Getting Started
-
-### Prerequisites
-
-- Python **3.10 or newer**
+- Python 3.10 atau lebih baru
 - Git
-- A virtual environment is strongly recommended
+- Editor kode seperti Visual Studio Code
+- Dasar penggunaan terminal
 
-### Installation
+### Instalasi
 
 ```bash
 git clone https://github.com/DzarelDeveloper/PythonProject.git
 cd PythonProject
-
 python -m venv .venv
+```
+
+Aktifkan virtual environment:
+
+```bash
+# Linux/macOS
 source .venv/bin/activate
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
 ```
 
-On Windows, activate the environment with:
-
-```powershell
-.venv\Scripts\activate
-```
-
-Install the shared dependencies:
+Instal dependensi bersama:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then open a project and run it:
+Mulai dari hari pertama:
 
 ```bash
 cd Day-01
 python main.py
 ```
 
-Some projects require only part of the shared dependency list. Check the project's README and imports before installation.
+Baca `README.md` di dalam folder setiap hari sebelum menjalankan program.
 
-## Repository Structure
+## Cara Belajar yang Disarankan
+
+1. Baca tujuan dan konsep pada README hari tersebut.
+2. Jalankan program tanpa mengubah kode untuk memahami perilakunya.
+3. Baca `main.py` dari atas ke bawah.
+4. Ubah satu bagian kecil dan amati hasilnya.
+5. Kerjakan latihan mandiri.
+6. Selesaikan tantangan sebelum berpindah ke hari berikutnya.
+7. Catat kesalahan yang ditemukan dan cara memperbaikinya.
+
+## Struktur Repository
 
 ```text
 PythonProject/
 ├── Day-01/
-│   ├── main.py
-│   └── README.md
-├── Day-02/
 │   ├── main.py
 │   └── README.md
 ├── ...
@@ -151,41 +133,33 @@ PythonProject/
 └── requirements.txt
 ```
 
-## Security and Responsible Use
+## Keamanan dan Etika
 
-- Never commit API keys, bot tokens, passwords, or `.env` files.
-- Use environment variables for projects that connect to external services.
-- Run network and security-related projects only against systems you own or are explicitly authorized to test.
-- Day 29 is intended for defensive analysis of authorized local logs.
-- Review older learning projects before using them in production; educational code may require additional validation, error handling, testing, and security hardening.
+- Jangan menyimpan password, token bot, atau API key langsung di source code.
+- Gunakan environment variable dan file `.env` yang tidak di-commit.
+- Jalankan proyek jaringan hanya pada aset milik sendiri atau yang telah memberikan izin.
+- Gunakan proyek analisis log hanya pada data yang berhak kamu akses.
+- Audit dan uji ulang sebelum menggunakan proyek pembelajaran di lingkungan production.
 
-## Contributing
+## Kontribusi
 
-Suggestions, bug reports, documentation improvements, and pull requests are welcome. When contributing:
-
-1. Keep each project self-contained.
-2. Do not include credentials or personal data.
-3. Explain new dependencies.
-4. Preserve attribution for code originating from another repository.
-5. Test the project before submitting a pull request.
+Issue dan pull request dipersilakan. Pastikan perubahan tetap mudah dipelajari, tidak menyertakan data sensitif, menjelaskan dependensi baru, dan telah diuji.
 
 ## Author
 
-Created and maintained by **Muhamad Dzarel Alghifari**.
+Dibuat dan dikelola oleh **Muhamad Dzarel Alghifari**.
 
 - GitHub: [@DzarelDeveloper](https://github.com/DzarelDeveloper)
 - Website: [dzarel.com](https://dzarel.com)
 
-## License
+## Lisensi
 
-This project is available under the [MIT License](./LICENSE).
+Tersedia di bawah [MIT License](./LICENSE).
 
 ---
 
 <div align="center">
 
-**Learn consistently. Build practically. Improve one project at a time.**
-
-If this repository helps you, consider giving it a ⭐.
+**Belajar konsisten. Bangun sesuatu. Tingkatkan satu proyek setiap hari.**
 
 </div>
