@@ -119,6 +119,8 @@ python main.py
 
 Read the README inside each day's directory before running its program. Some projects require a desktop environment, microphone, internet connection, bot token, or API credential.
 
+> **Command compatibility:** If `python` is not available on Linux or macOS, use `python3` in the commands above. On Windows, the Python launcher can also be invoked with `py`.
+
 ## Recommended Learning Workflow
 
 1. Read the learning goals and concepts for the day.
